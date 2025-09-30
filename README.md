@@ -33,6 +33,8 @@ La fonction `open()` renvoie un objet [`io.TextIOWrapper`](https://docs.python.o
 > [!TIP] Retourner les données
 Les données lues dans un fichier texte par [`readlines()`](https://docs.python.org/3/library/io.html#io.IOBase.readlines) sont retournées sous la forme d'une liste de chaines de caractères. Relire attentivement la consigne et jeter un oeil sur les doctests pour avoir une idée précise de l'attendu. Il sera efficace d'utiliser une *list comprehension* pour fabriquer une liste d'entiers pour chaque élément de la liste retournée.
 
+<!-- START INSERT -->
+
 ## To do
 
 1️⃣ Ecrire (ou modifier) le code de la fonction secondaire.
@@ -63,3 +65,5 @@ Si le score de qualité ``SQ`` n'est pas maximal, répéter l'étape 5️⃣ en 
 
 > [!CAUTION]
 En cas de soumissions multiples, seule la première est prise en compte.
+
+<!-- END INSERT -->
